@@ -1,0 +1,32 @@
+body {
+    background-color: #FFFFFF; 
+    color: #000000; 
+    font-family: 'Inter', sans-serif; 
+    font-size: 16px; 
+}
+
+h1, h2 {
+    color: #00115e; 
+    text-align: center;
+}
+
+@keyframes color-change {
+    0% {
+        color: rgb(1, 1, 51);
+    }
+    50% {
+        color: rgb(68, 0, 0);
+    }
+    100% {
+        color: rgb(0, 0, 51);
+    }
+}
+
+h2, p, li {
+    animation: color-change 3s infinite;
+}
+
+h1:hover { animation: color-change 3s infinite; }
+
+
+
